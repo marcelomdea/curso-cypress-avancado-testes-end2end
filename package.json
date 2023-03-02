@@ -1,0 +1,20 @@
+{
+  "name": "test-end-2-end-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "cy:open": "cypress open",
+    "test": "cypress run --reporter nyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3"
+  }
+}
